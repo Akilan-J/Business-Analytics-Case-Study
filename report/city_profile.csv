@@ -1,0 +1,8 @@
+city,restaurants,median_cost,mean_rating,median_delivery,pct_with_offer,pct_chain
+Chennai,242,350.0,4.34,25.0,96.0,95.0
+Delhi,223,350.0,4.35,26.0,97.0,94.0
+Mumbai,269,350.0,4.37,28.0,96.0,75.0
+Pune,241,350.0,4.26,23.0,96.0,78.0
+Bengaluru,253,300.0,4.34,30.0,86.0,80.0
+Hyderabad,231,300.0,4.22,30.0,95.0,75.0
+Kolkata,227,300.0,4.43,30.0,92.0,70.0

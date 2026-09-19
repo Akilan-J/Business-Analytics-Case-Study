@@ -1,0 +1,16 @@
+Metric,Value
+Restaurant-locality observations scraped,"1,831"
+Unique restaurants after de-duplication,"1,686"
+Cities / localities covered,7 / 70
+Restaurants carrying a rating,99.8%
+Median cost for two,₹300
+Median promised delivery time,27 min
+Restaurants running a visible offer,94.1%
+OLS adjusted R² (rating model),0.260
+Best regressor (Random Forest) test R²,0.487
+Logistic ROC-AUC (rating ≥ 4.2),0.726
+K-Means segments (k=4) silhouette,0.215
+Best delivery-time model (Gradient Boosting) test R²,0.651
+Delivery-time test MAE,3.94 min
+Minutes added per extra km of last mile,3.43
+Multi-outlet brands benchmarked,15
