@@ -450,7 +450,8 @@ B(["<b>Do not buy rating with discounts.</b> Value performers hit 4.55 on ₹200
    "Creams (23 min, 4.65) show the achievable frontier for speed and rating together."])
 
 # ------------------------------------------------------------------ 7
-H("7. Conclusion")
+H("7. Conclusion and References")
+h("7.1 Summary of outcomes")
 P("""This study built a primary dataset of 1,686 restaurants across 70 localities and
 seven Indian metros by scraping Swiggy's public listing endpoint, and used it to model
 restaurant rating and delivery time, benchmark fifteen competing brands and segment the
@@ -466,7 +467,7 @@ and that offer depth outranks price as a predictor of rating. None of the four c
 studies examines this relationship. For a platform that subsidises discounting and for
 partners who fund it, the implication is that deep promotion should be read as a signal
 that something needs fixing, not as a lever that fixes it.""")
-h("Limitations")
+h("7.2 Limitations")
 B(["<b>Cross-sectional snapshot.</b> A single collection on 19 September 2026 cannot "
    "separate cause from effect; the discount–rating association is consistent with "
    "struggling restaurants discounting, which is the more plausible direction.",
@@ -483,7 +484,7 @@ P("""Repeated collection over several weeks would turn this cross-section into a
 allow the discount–rating question to be tested causally — observing whether a rating falls
 after a restaurant deepens its discount, or the discount deepens after the rating falls.""")
 
-H("References")
+h("7.3 References")
 refs = [
  "Garg, A., Ayaan, M., Parekh, S. and Udandarao, V. (2025) <i>Food Delivery Time Prediction in Indian Cities Using Machine Learning Models.</i> arXiv:2503.15177. Available at: https://arxiv.org/abs/2503.15177",
  "Turai, S., Praneetha, P., Aishwarya, R. B., Adil, M. and Vangala, M. C. (2025) 'Analysis of restaurant ratings and reviews using machine learning', <i>World Journal of Advanced Research and Reviews</i>, 25(02), pp. 1039–1046. doi: 10.30574/wjarr.2025.25.2.0378",
