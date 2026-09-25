@@ -88,7 +88,7 @@ flow.append(Table([[""]], colWidths=[W], rowHeights=[2],
 S(8)
 
 # ---------------------------------------------------------------- 1
-H("1. Problem Statement and Objectives")
+H("1. Problem statement and objectives")
 P("""Food delivery aggregators list thousands of restaurants whose ratings, prices,
 promised delivery times and promotional offers vary sharply from one locality to the
 next. Neither the platform nor its restaurant partners has a current view of which of
@@ -109,7 +109,7 @@ B(["<b>Identify the drivers of restaurant rating</b> from publicly listed attrib
    "discount depth, and convert the segments into pricing and operational recommendations."])
 
 # ---------------------------------------------------------------- 2
-H("2. Data Collection and Dataset Description")
+H("2. Dataset source and collection method")
 P("""<b>Collection method: web scraping.</b> Data was collected from
 <font face="DJV-B">www.swiggy.com/dapi/restaurants/list/v5</font>, the public JSON endpoint
 that renders swiggy.com/restaurants. It requires no login and exposes only business
@@ -141,7 +141,7 @@ publicly. <b>Ethics:</b> only business attributes are stored — no customer nam
 or identifiers — and a crawl delay limits load on the source.""")
 
 # ---------------------------------------------------------------- 3
-H("3. Data Preparation and Exploratory Analysis")
+H("3. Data preparation and exploratory analysis")
 B(["<b>Display strings parsed to numbers:</b> '₹400 for two' → 400; '5.6K+' → 5,600.",
    "<b>Offers decomposed</b> from header and sub-header into four mechanics — capped "
    "percentage ('30% OFF UPTO ₹60'), flat rupee ('₹85 OFF ABOVE ₹199'), item price point "
@@ -165,7 +165,7 @@ minutes; Pune is the fastest city at 23 minutes and Kolkata, Hyderabad and Benga
 slowest at 30.""")
 
 # ---------------------------------------------------------------- 4
-H("4. Analytics Method and Implementation")
+H("4. Analytics method and implementation")
 P("""Five methods from the Business Analytics syllabus were applied. All use a fixed seed
 (42), a 75/25 train–test split and 5-fold cross-validation.""")
 table([["Question", "Method", "Justification"],
@@ -233,7 +233,7 @@ effects are large and independent of distance — Pune is roughly 10 minutes fas
 Kolkata at equal last-mile distance.""")
 
 # ---------------------------------------------------------------- 5
-H("5. Comparison with State-of-the-Art Methods")
+H("5. Comparison with three published studies")
 P("""Three recent published studies on the same problem family are compared below.
 <b>Reported scores are not directly comparable across rows</b>: each study uses a different
 dataset, target variable, feature set and experimental setting, so a higher number does not
@@ -265,7 +265,7 @@ B(["<b>All three comparators use secondary datasets</b> — Zomato extracts or a
    "reported in Section 6 and the contribution absent from the prior work reviewed."])
 
 # ---------------------------------------------------------------- 6
-H("6. Results, Business Insights and Recommendations")
+H("6. Results, insights, and recommendations")
 table([["Metric", "Value", "Metric", "Value"],
        ["Unique restaurants", "1,686", "Rating model — RF test R²", "0.487"],
        ["Cities / localities", "7 / 70", "High-rating classifier ROC-AUC", "0.726"],
@@ -311,7 +311,7 @@ B(["<b>Platform — treat discount depth as a risk indicator.</b> Route restaura
    "0.008 rating points and each extra cuisine tag 0.012 — breadth reads as lack of focus."])
 
 # ---------------------------------------------------------------- 7
-H("7. Conclusion and References")
+H("7. Conclusion and references")
 P("""This study built a primary dataset of 1,686 restaurants across 70 localities and seven
 Indian metros by scraping Swiggy's public listing endpoint, then modelled rating and delivery
 time, benchmarked fifteen brands and segmented the market on price, quality and speed. The
