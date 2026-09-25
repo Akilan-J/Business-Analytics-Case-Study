@@ -1,6 +1,6 @@
 # Intelligent Food Delivery Analytics Using Live Swiggy Market Intelligence
 
-**Business Analytics — Individual Case Study**
+**23CSE452 Business Analytics — Individual Case Study**
 
 | | |
 |---|---|
@@ -113,7 +113,7 @@ this study — the scraped data is the sole and primary dataset.
 ```
 ├── README.md                       this file
 ├── analysis.ipynb                  full executed analysis (36 code cells, 14 figures)
-├── Case_Study_Report.pdf           final report in the prescribed format
+├── Case_Study_Report.pdf           final 6-page report in the prescribed format
 ├── data/
 │   ├── swiggy_raw.csv              raw scrape, 1,831 rows
 │   └── swiggy_clean.csv            cleaned + engineered, 1,686 rows
@@ -151,5 +151,4 @@ report is built on.
 1. Garg, A., Ayaan, M., Parekh, S. and Udandarao, V. (2025) *Food Delivery Time Prediction in Indian Cities Using Machine Learning Models.* arXiv:2503.15177. https://arxiv.org/abs/2503.15177
 2. Turai, S., Praneetha, P., Aishwarya, R. B., Adil, M. and Vangala, M. C. (2025) 'Analysis of restaurant ratings and reviews using machine learning', *World Journal of Advanced Research and Reviews*, 25(02), pp. 1039–1046. https://doi.org/10.30574/wjarr.2025.25.2.0378
 3. Raj, H., Paul, S. and Kumar, K. (2025) 'A Comprehensive Analysis on Online Food Delivery: Taste The Change', *International Journal of Research Publication and Reviews*, 6(5), pp. 5962–5970. https://ijrpr.com/uploads/V6ISSUE5/IJRPR45404.pdf
-4. Kulkarni, A., Bhandari, D. and Bhoite, S. (2019) 'Restaurants Rating Prediction using Machine Learning Algorithms', *International Journal of Computer Applications Technology and Research*, 8(9), pp. 375–378. https://ijcat.com/archieve/volume8/issue9/ijcatr08091008.pdf
-5. Swiggy (2026) *Restaurant listing endpoint.* https://www.swiggy.com/restaurants (accessed 19 September 2026).
+4. Swiggy (2026) *Restaurant listing endpoint.* https://www.swiggy.com/restaurants (accessed 19 September 2026).
